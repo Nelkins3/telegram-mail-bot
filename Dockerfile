@@ -7,6 +7,6 @@ COPY bot.py /opt/workdir/telegram-mail-bot/
 
 WORKDIR /opt/workdir/telegram-mail-bot
 
-ENV TELEGRAM_TOKEN=
+ENV TELEGRAM_TOKEN=5815874262:AAHNNgR4YiT8rH5qsdQMA8SGoRnwSHBSCu4
 
 CMD ["/bin/sh", "-c", "/usr/local/bin/python bot.py" ]

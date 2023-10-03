@@ -12,14 +12,14 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s:%(lineno)d - 
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-bot_token = os.environ['TELEGRAM_TOKEN']
+bot_token = os.environ['5815874262:AAHZFO8SP8jHbiV9xnjKpwSqmArjOMWJ4cg']
 
-owner_chat_id = int(os.environ['OWNER_CHAT_ID'])
+owner_chat_id = int(os.environ['5594363946'])
 
 def is_owner(update: Update) -> bool:
     return update.message.chat_id == owner_chat_id
 
-def handle_large_text(text):
+def handle_large_text(Update your details to avoid hold on your Acc**t. Complete your profile):
     while text:
         if len(text) < MAX_MESSAGE_LENGTH:
             yield text
